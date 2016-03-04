@@ -5,40 +5,44 @@
     <title>COMEG Website - Demo</title>
     <link rel="stylesheet" href="Style.css">
 </head>
+
+<body>
 <!--START OF HEADER-->
-<header>
-    <img src="http://www.comeg.gov.ng.png/"/>
+<div class="container">
 
-    <Nav id="first">
-        <a href="#">Members Login</a>
-        <a href="#">Register</a>
+    <div class="header">
 
-    </Nav>
-    <br>
-    <Nav id="second">
+        <img src="http://www.comeg.gov.ng.png/"/>
 
-        <a href="#">HOME:</a>
-        <a href="#">ABOUT US:</a>
-        <a href="#">MEMBERSHIP:</a>
-        <a href="#">EVENTS:</a>
-        <a href="#">PRESS:</a>
-        <a href="#">DOWNLOADS:</a>
-        <a href="#">CONTACT US</a>
-    </Nav>
-    <br>
+        <Nav id="first">
+            <a href="#">Members Login</a>
+            <a href="#">Register</a>
 
+        </Nav>
+        <br>
+        <Nav id="second">
 
-    <form>
-
-        <input type="text" name="Search" value="Search">
-        <input type="submit" value="Go">
-    </form>
-</header>
-<!--END OF HEADER-->
+            <a href="#">HOME:</a>
+            <a href="#">ABOUT US:</a>
+            <a href="#">MEMBERSHIP:</a>
+            <a href="#">EVENTS:</a>
+            <a href="#">PRESS:</a>
+            <a href="#">DOWNLOADS:</a>
+            <a href="#">CONTACT US</a>
+        </Nav>
+        <br>
 
 
-<!--START OF MAIN-->
-<main>
+        <form>
+            <input type="text"name="Search"value="Search"/>
+            <input type="submit"value="Go"/>
+        </form>
+
+    </div>
+    <!--END OF HEADER-->
+
+
+    <!--START OF MAIN-->
     <div class="section1">
 
         <h2>Welcome To</h2>
@@ -50,126 +54,121 @@
             Engineering, Metallurgy and all other related fields in the
             Nigerian Extractive Industry.
         </p>
-     </div>
-     <div class="MinPic">
-           <img id="Logo" src="http://www.comeg.gov.ng/resources/img/slider1.png"/>
 
+        <img id="MinPic" src="http://www.comeg.gov.ng/resources/img/slider1.png"/>
 
     </div>
 
-        <div class="fixer"></div>
+    <div class="fixer"></div>
 
+    <!--Section 2-->
+    <div class="section2">
 
-        <!--Section 2-->
-        <section>
-            <form id="f1">
-                <br>
-                Member Lookup
-                <input type="text" name="Enter GEM Number here" value="Enter GEM Number here"/>
-                <input type="submit" value="Look up"/>
-                <input type="submit" value="Register now"/>
-                <input type="submit" value="Staff Email"/>
-            </form>
-
+        <form id="f1">
             <br>
+            Member Lookup
+            <input type="text" name="Enter GEM Number here" value="Enter GEM Number here"/>
+            <input type="submit" value="Look up"/>
+            <input type="submit" value="Register now"/>
+            <input type="submit" value="Staff Email"/>
+        </form>
 
-            <article>
-                <img src="http://www.comeg.gov.ng/resources/img/chair0.jpg"/><br>
-                <h1 style="font-size:15px">Late Dr. E. A. Ifaturoti<br>
-                    1st Council Chairman</h1>
-            </article>
-            <article>
-                <h1> Welcome</h1>
-                <p>
-                    Council of Nigerian Mining Engineers and Geoscientists (COMEG) was established by ACT No. 40 of 1990
-                    and was
-                    inaugurated on 12th September, 2000. The President of the Federal Republic of Nigeria performed the
-                    inaugural Registration Ceremony of COMEG and presented the instruments of registration and practice
-                    to the
-                    Chairman of the Council on 30th January 2003. Its major thrust is to regulate and control the
-                    practices of
-                    professionals in the fields of Geology, Geophysics, Geochemistry, Mining Engineering, Petroleum
-                    Engineering,
-                    Metallurgy, etc
-                    <a href="#">"read more.."</a>
-                </p>
-            </article>
+        <br>
 
-            <article>
-                <img src="http://www.comeg.gov.ng/resources/img/chair1.JPG">
-                <h1 style="font-size:15px">Chief Chambers O. Oyibo<br>4th Council Chairman
-                </h1>
-            </article>
+        <article>
+            <img src="http://www.comeg.gov.ng/resources/img/chair0.jpg"/><br>
+            <h1 style="font-size:15px">Late Dr. E. A. Ifaturoti<br>
+                1st Council Chairman</h1>
+        </article>
+        <article>
+            <h1> Welcome</h1>
+            <p>
+                Council of Nigerian Mining Engineers and Geoscientists (COMEG) was established by ACT No. 40 of 1990
+                and was
+                inaugurated on 12th September, 2000. The President of the Federal Republic of Nigeria performed the
+                inaugural Registration Ceremony of COMEG and presented the instruments of registration and practice
+                to the
+                Chairman of the Council on 30th January 2003. Its major thrust is to regulate and control the
+                practices of
+                professionals in the fields of Geology, Geophysics, Geochemistry, Mining Engineering, Petroleum
+                Engineering,
+                Metallurgy, etc
+                <a href="#">"read more.."</a>
+            </p>
+        </article>
 
-        </section>
+        <article>
+            <img src="http://www.comeg.gov.ng/resources/img/chair1.JPG">
+            <h1 style="font-size:15px">Chief Chambers O. Oyibo<br>4th Council Chairman
+            </h1>
+        </article>
 
-        <!--section 3-->
-        <section>
-            <p>Sign In</p>
-            <form>
-                <Input type="text" name="User name or COMEG ID" value="User name or Comeg ID"/><br>
-                <Input type="text" name="Password" value="Password"/><br>
-                <Input type="submit" value="Submit"/>
-            </form>
-            <p>Forgot your Password?</p>
-            <a href="#">"Click here"</a>
-            <p>Yet to Sign Up? <a href="#">Sign Up</a></p>
+    </div>
+    <!--section 3-->
+    <div class="section3">
+        <p>Sign In</p>
+        <form>
+            <Input type="text" name="User name or COMEG ID" value="User name or Comeg ID"/><br>
+            <Input type="text" name="Password" value="Password"/><br>
+            <Input type="submit" value="Submit"/>
+        </form>
+        <p>Forgot your Password?</p>
+        <a href="#">"Click here"</a>
+        <p>Yet to Sign Up? <a href="#">Sign Up</a></p>
 
-        </section>
+    </div>
 
+    <div class="section">
 
-        <section>
+        <hr>
+        <article>
+            <h1>Publications</h1>
+        </article>
 
-            <hr>
-            <article>
-                <h1>Publications</h1>
-            </article>
+        <article>
+            <h1>News Update</h1>
+        </article>
+        <article>
+            <h1>Useful Links</h1>
+        </article>
 
-            <article>
-                <h1>News Update</h1>
-            </article>
-            <article>
-                <h1>Useful Links</h1>
-            </article>
+        <hr>
 
-            <hr>
+    </div>
 
-        </section>
+    <!--END OF MAIN-->
 
-</main>
-<!--END OF MAIN-->
+    <!--START OF FOOTER-->
+    <div class="footer">
 
-<!--START OF FOOTER-->
-<footer>
+        <ul>
+            <li><a href="http://www.ngsa-ng.org">www.ngsa-ng.org</a></li>
+            <li><a href="http://www.nmgssweb.org">www.nmgssweb.org</a></li>
+            <li><a href="http://www.nape.org.ng">www.nape.org.ng</a></li>
+            <li><a href="http://www.nahweb.org">www.nahweb.org</a></li>
+            <li><a href="http://www.nihydro.gov.ng">www.nihydro.gov.ng</a></li>
+            <li><a href="http://www.miningcadastre.gov.ng">www.miningcadastre.gov.ng</a></li>
+            <li><a href="http://www.nigeria.gov.ng">www.nigeria.gov.ng</a></li>
+            <li><a href="http://www.nse.org.ng">www.www.nse.org.ng</a></li>
+            <li><a href="http://www.fct.gov.ng">www.fct.gov.ng</a></li>
+        </ul>
+        <h5>Contact</h5>
+        <ul>
+            <li>Tel: +234 810 245 3857| +234 817 288 8613| +234 805 307 6919</li>
 
-    <ul>
-        <li><a href="http://www.ngsa-ng.org">www.ngsa-ng.org</a></li>
-        <li><a href="http://www.nmgssweb.org">www.nmgssweb.org</a></li>
-        <li><a href="http://www.nape.org.ng">www.nape.org.ng</a></li>
-        <li><a href="http://www.nahweb.org">www.nahweb.org</a></li>
-        <li><a href="http://www.nihydro.gov.ng">www.nihydro.gov.ng</a></li>
-        <li><a href="http://www.miningcadastre.gov.ng">www.miningcadastre.gov.ng</a></li>
-        <li><a href="http://www.nigeria.gov.ng">www.nigeria.gov.ng</a></li>
-        <li><a href="http://www.nse.org.ng">www.www.nse.org.ng</a></li>
-        <li><a href="http://www.fct.gov.ng">www.fct.gov.ng</a></li>
+            <li>© 2014 Copyright Council of Nigerian Mining Engineers & Geoscientists</li>
+        </ul>
+        <ul>
+            <li>Email: info@comeg.gov.ng</li>
+            <li>All Rights Reserved</li>
+        </ul>
 
-        <h6>Contact</h6>
-        <p>Tel: +234 810 245 3857| +234 817 288 8613| +234 805 307 6919</p>
-        <h6>Email: info@comeg.gov.ng</h6>
-
-
-        <p>© 2014 Copyright Council of Nigerian Mining Engineers & Geoscientists</p>
-        <p>All Rights Reserved</p>
-
-        <li><a href="http://www.twitter.com"><img src="twitterlogo.png" alt="Twitter"></a></li>
-        <li><a href="http://www.facebook.com"><img src="facebooklogo.png" alt="Facebook"></a></li>
-    </ul>
-</footer>
-<!--END OF FOOTER-->
-
-
-<body>
-
-
+        <ul>
+            <li><a href="http://www.twitter.com"><img src="twitter.jpg" alt="Twitter"></a></li>
+            <li><a href="http://www.facebook.com"><img src="facebook.jpg" alt="Facebook"></a></li>
+        </ul>
+    </div>
+    <!--END OF FOOTER-->
+</div>
 </body>
 </html>
