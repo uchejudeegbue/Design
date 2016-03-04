@@ -1,0 +1,16 @@
+header {
+    background-color: green;
+    width: 900px;
+    height: 150px;
+}
+#second a{
+    color: white;
+    font-size: 12px;
+  }
+#first a{
+    color: gold;
+    font-size: 12px;
+}
+#first{
+    float:right;
+}
